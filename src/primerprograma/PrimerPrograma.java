@@ -9,8 +9,7 @@ public class PrimerPrograma {
     
     public static BufferedReader entrada = new BufferedReader(new InputStreamReader(System.in));
     public static void main(String[] args) throws IOException {
-        int a;
-        int b;
+        int a,b,c,d;
         System.out.println("Indique un valor numérico");
         a = Integer.parseInt(entrada.readLine());
         System.out.println("Valor de a = " + a);
@@ -18,6 +17,14 @@ public class PrimerPrograma {
         System.out.println("Indique un valor numérico b");
         b = Integer.parseInt(entrada.readLine());
         System.out.println("Valor de b = " + b);
+        System.out.println("---------------");
+        System.out.println("Indique un valor numérico c");
+        c = Integer.parseInt(entrada.readLine());
+        System.out.println("Valor de c = " + c);
+        System.out.println("---------------");
+        System.out.println("Indique un valor numérico d");
+        d = Integer.parseInt(entrada.readLine());
+        System.out.println("Valor de d = " + d);
         System.out.println("---------------");
         
     }
